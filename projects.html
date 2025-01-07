@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Personal Projects and Feats</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="btn-nav">Home</a></li>
+                <li><a href="projects.html" class="btn-nav">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class ="projContainer">
+            <h1>Dungeon 1 Recreation of 1986 Version of The Legend of Zelda</h1>
+            <p>A recreation of <strong>The Legend of Zelda</strong> for the SNES, built in C# as part of a team project for CSE 3902. The project includes gameplay mechanics, a save system, and various features reflective of the original game.</p>
+            <p>The project is under a private repository on my GitHub as required for now, but I am more than happy to grant access to it if requested by email.</p>
+            </div>
+            <div class="video-container">
+                <!-- Row with two videos side by side -->
+                <div class="video-row">
+                    <div class="video-item">
+                        <video autoplay muted loop>
+                            <source src="video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video autoplay muted loop>
+                            <source src="video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <!-- Single video beneath the two others -->
+                <div class="video-item-single">
+                    <video autoplay muted loop>
+                        <source src="video3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div> 
+            </div>
+        </section>
+        <section>
+            <div class="projContainer">
+                <h1>Matrix Calculator Application</h1>
+                <p>A personal project, inspired by my lack of success in finding a fully comprehensive matrix calculator while taking linear algebra. It is capable of computing matrix addition, subtraction, multiplication, transposition, the matrix inverse, and the determinant.</p>
+                <p>It is written in Java and utilizes the JavaFX framework for its GUI. I am currently implementing more features such as eigenvalue and vector computation, as well as teaching myself JavaScript to create a better interface for the application.</p>
+            </div>
+        
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="openandMenuPage.png" alt="Matrix Calculator Menu Page">
+                </div>
+                <div class="image-item">
+                    <img src="mult.png" alt="Matrix Calculator Mult Page">
+                </div>
+            </div>
+        
+            <div class="image-item-single">
+                <img src="multResult.png" alt="Matrix Calculator Mult Result Page">
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Charlie McEwen</p>
+    </footer>
+</body>
+</html>
